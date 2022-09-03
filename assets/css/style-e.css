@@ -158,7 +158,7 @@ body {
         color: orange;
         position: relative;
         padding: 2px;
-        bottom: 4px;
+        bottom: 6px;
         left: 37px;
         background-color: rgba(36, 34, 35, 0.2);
         border-radius: 15px;
@@ -323,9 +323,9 @@ body {
     .journey {
         color: orange;
         position: relative;
-        padding: 2px;
-        bottom: 8px;
-        left: 26px;
+        padding: 3px;
+        bottom: 7px;
+        left: 38px;
         background-color: rgba(36, 34, 35, 0.2);
         border-radius: 15px;
         text-decoration: none;
@@ -378,8 +378,8 @@ body {
     color: orange;
     position: relative;
     padding: 2px;
-    bottom: 14px;
-    left: 21px;
+    bottom: 8px;
+    left: 50px;
     background-color: rgba(36, 34, 35, 0.2);
     border-radius: 15px;
     text-decoration: none;
