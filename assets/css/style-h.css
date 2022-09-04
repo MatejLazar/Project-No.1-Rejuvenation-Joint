@@ -552,7 +552,7 @@ footer > div {
 /* DESKTOPS */    /* DESKTOPS */    /* DESKTOPS */    /* DESKTOPS */    /* DESKTOPS */    /* DESKTOPS */    
 /* DESKTOPS */    /* DESKTOPS */    /* DESKTOPS */    /* DESKTOPS */    /* DESKTOPS */    /* DESKTOPS */    
 
-@media (max-width: 1280px) {
+/* @media (max-width: 1280px) {
 
   #navbar-brand {
     padding-bottom: 41px;
@@ -760,59 +760,58 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 10px;
 }
   
-}
+} */
 
 /* DESKTOP */       /* DESKTOP */       /* DESKTOP */       /* DESKTOP */       /* DESKTOP */       
 /* DESKTOP */       /* DESKTOP */       /* DESKTOP */       /* DESKTOP */       /* DESKTOP */       
 
-@media (min-width: 1281px) {
+@media (min-width: 1248px) {
   #button {
-    display: inline-block;
-    float: right;
-    font-size: 40px;
-    font-family: 'The Serif Hand Bold';
-    color: #6fba82;
-    text-align: center;
     margin: 0;
-    padding-top: 155px;
-    width: 15%;
+    padding-top: 170px;
+    width: 145px;
     height: 406px;
-    border: 1px solid rgb(215, 166, 18);
-    color: #451;
-    background: rgb(255, 187, 0);
-    border-radius: 4px;
-    box-shadow: 0 0 30px rgb(0 0 0 / 15%) inset, 0 6px 10px rgb(0 0 0 / 15%);
-    flex-direction: column;
-    vertical-align: middle;
-    align-items: center;
-    margin-top: -416px;
-}
-
-
-
-}
-
-
-/* Desktops & Laptops */      /* Desktops & Laptops */      /* Desktops & Laptops */      
-/* Desktops & Laptops */      /* Desktops & Laptops */      /* Desktops & Laptops */      
-
-@media (min-width: 1025px) and (max-width: 1280px) {
+    margin-right: -50px;
+    margin-top: 65px;
   
+  }
+  
+  .container123 {
+    width: 924px;
+    height: 100%;
+  }
+
+  .gradient {
+    width: 732px;
+    height: 406px;
+    float: left;
+    margin-left: 97px;
+    margin-top: 65px;
+    margin-bottom: 60px;
+}
+
+
+}
+
+/* 12" Desktops & Laptops */      /* 12" Desktops & Laptops */      /* 12" Desktops & Laptops */      
+/* 12" Desktops & Laptops */      /* 12" Desktops & Laptops */      /* 12" Desktops & Laptops */  
+
+@media (min-width: 1152px) and (max-width: 1247px) {
+
   #navbar-brand {
     padding-bottom: 41px;
     font-size: 30px;
     margin-top: 10px;
     line-height: 90%;
-
-    margin-left: -54px;
-    margin-right: 236px;
+    margin-left: -46px;
+    margin-right: 78px;
 
   }
 
   .navbar-subject a {
     color: white;
     font-weight: bolder;
-    font-size: 21px;
+    font-size: 20px;
     text-decoration: none;
     font-family: 'Rage Italic';
     padding-left: 0px;
@@ -847,7 +846,7 @@ body::-webkit-scrollbar-thumb {
 
 .background {
   max-width: 1280px;
-  padding: 10px;
+  padding: 40px;
 
 }
 
@@ -889,7 +888,7 @@ body{
   width: 732px;
   height: 381px;
   float: left;
-  margin-left: -95px;
+  margin-left: -30px;
   margin-top: 15px;
 
 }
@@ -925,8 +924,220 @@ body{
   text-align: center;
 }
 
+
+#button {
+  margin: 0;
+  padding-top: 250px;
+  width: 145px;
+  height: 382px;
+  margin-right: -19px;
+  margin-top: 15px;
+
+}
+
 .container123 {
-  max-width: 767px;
+  width: 828px;
+  height: 100%;
+}
+
+
+svg {
+  width: 34px;
+  height: 34px;
+  vertical-align: middle;
+  flex-direction: column;
+  margin-bottom: 0px;
+  z-index: 3;
+  margin-top: -220px;
+}
+
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+
+}
+
+body::-webkit-scrollbar-track {
+  background-color:rgba(57, 35, 5, 0.806);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 187, 0);
+}
+
+#footer h1 {
+  font-size: 25px;
+  margin-left: 0px;
+  padding-left: 2px;
+}
+
+#footer {
+  padding: 0;
+  width: 100%;
+}
+
+.logo {
+  left: 693px;
+  bottom: 87px;
+}
+
+.slogan {
+  color: rgb(255, 255, 255);
+  padding: 0;
+  width: 617px;
+  height: 38px;
+  margin-left: 72px;
+  line-height: 38%;
+  padding-top: 13px;
+}
+
+.ps {
+  font-size: 22px;
+  text-align: center;
+}
+
+#slogan {
+  font-size: 12px;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.background2 {
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+}
+
+/* 11" Desktops & Laptops */      /* 11" Desktops & Laptops */      /* 11" Desktops & Laptops */      
+/* 11" Desktops & Laptops */      /* 11" Desktops & Laptops */      /* 11" Desktops & Laptops */  
+
+@media (min-width: 1056px) and (max-width: 1151px) {
+
+  #navbar-brand {
+    padding-bottom: 41px;
+    font-size: 30px;
+    margin-top: 10px;
+    line-height: 90%;
+    margin-left: -46px;
+    margin-right: 78px;
+
+  }
+
+  .navbar-subject a {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Rage Italic';
+    padding-left: 0px;
+}
+
+.navbar li {
+  display: inline-flex;
+  text-align: center;
+  padding-left: 2rem;
+  padding-bottom: 30px;
+  text-shadow: 0 0 5px rgb(255 255 255 / 28%), 0 -4px 15px rgb(163 93 14 / 72%);
+  margin-left: 1px;
+}
+
+
+  .navbar-subject {
+    background-image: linear-gradient(
+      -225deg,
+      rgb(0, 0, 0) 10%,
+      rgb(0, 0, 0) 20%,
+      rgb(0, 0, 0) 30%,
+      rgb(0, 0, 0)  40%,
+      rgb(0, 0, 0) 50%,
+      rgb(36, 36, 36) 60%,
+      rgb(29, 29, 29) 70%,
+      rgb(0, 0, 0)  80%,
+      rgb(0, 0, 0) 90%,
+      rgb(0, 0, 0) 100%
+      );
+  }
+
+
+.background {
+  max-width: 1280px;
+  padding: 40px;
+
+}
+
+.introduction {
+  max-width: 1280px;
+}
+
+.intro h1 {
+  font-size: 45px;
+  font-family: 'Rage Italic', 'The Serif Hand Bold';
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+#intro {
+  max-width: 1280px;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+}
+
+#intro-text {
+  color:black;
+  font-family: 'Rage Italic';
+  font-size: 30px
+}
+
+body{
+  overflow-x:hidden;
+  
+}
+
+.gradient {
+  width: 732px;
+  height: 381px;
+  float: left;
+  margin-left: -76px;
+  margin-top: 15px;
+
+}
+
+.card1 {
+  width: 725px;
+  height: 375px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{width:6px;}
+::-webkit-scrollbar-thumb{background-color:#b96f00;}
+::-webkit-scrollbar-thumb:hover{background-color:#834e00;}
+
+
+.card2 {
+  width: 725px;
+  height: 375px;
+  overflow:scroll;
+  overflow-x:hidden;
+}
+
+.card3 {
+  width: 725px;
+  height: 375px;
+  overflow:scroll;
+  overflow-x:hidden;
+}
+
+.pd, .pm, .pt {
+  font-size: 15px;
+  text-align: center;
 }
 
 #button {
@@ -934,9 +1145,229 @@ body{
   padding-top: 250px;
   width: 145px;
   height: 382px;
-  margin-right: -81px;
+  margin-right: -69px;
   margin-top: 15px;
 
+}
+
+.container123 {
+  width: 732px;
+  height: 100%;
+}
+
+
+svg {
+  width: 34px;
+  height: 34px;
+  vertical-align: middle;
+  flex-direction: column;
+  margin-bottom: 0px;
+  z-index: 3;
+  margin-top: -220px;
+}
+
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+
+}
+
+body::-webkit-scrollbar-track {
+  background-color:rgba(57, 35, 5, 0.806);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 187, 0);
+}
+
+#footer h1 {
+  font-size: 25px;
+  margin-left: 0px;
+  padding-left: 2px;
+}
+
+#footer {
+  padding: 0;
+  width: 100%;
+}
+
+.logo {
+  left: 693px;
+  bottom: 87px;
+}
+
+.slogan {
+  color: rgb(255, 255, 255);
+  padding: 0;
+  width: 617px;
+  height: 38px;
+  margin-left: 72px;
+  line-height: 38%;
+  padding-top: 13px;
+}
+
+.ps {
+  font-size: 22px;
+  text-align: center;
+}
+
+#slogan {
+  font-size: 12px;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.background2 {
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+}
+
+/* Desktops & Laptops */      /* Desktops & Laptops */      /* Desktops & Laptops */      
+/* Desktops & Laptops */      /* Desktops & Laptops */      /* Desktops & Laptops */   
+
+@media (min-width: 1025px) and (max-width: 1055px) {
+  
+  #navbar-brand {
+    padding-bottom: 41px;
+    font-size: 30px;
+    margin-top: 12px;
+    line-height: 90%;
+    margin-left: -13px;
+    margin-right: 85px;
+
+  }
+
+  .navbar-subject a {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Rage Italic';
+    padding-left: 0px;
+}
+
+.navbar li {
+  display: inline-flex;
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-bottom: 30px;
+  text-shadow: 0 0 5px rgb(255 255 255 / 28%), 0 -4px 15px rgb(163 93 14 / 72%);
+  margin-left: 1px;
+}
+
+
+  .navbar-subject {
+    background-image: linear-gradient(
+      -225deg,
+      rgb(0, 0, 0) 10%,
+      rgb(0, 0, 0) 20%,
+      rgb(0, 0, 0) 30%,
+      rgb(0, 0, 0)  40%,
+      rgb(0, 0, 0) 50%,
+      rgb(36, 36, 36) 60%,
+      rgb(29, 29, 29) 70%,
+      rgb(0, 0, 0)  80%,
+      rgb(0, 0, 0) 90%,
+      rgb(0, 0, 0) 100%
+      );
+  }
+
+
+.background {
+  max-width: 1280px;
+  padding: 40px;
+
+}
+
+.introduction {
+  max-width: 1280px;
+}
+
+.intro h1 {
+  font-size: 45px;
+  font-family: 'Rage Italic', 'The Serif Hand Bold';
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+#intro {
+  max-width: 1280px;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+}
+
+#intro-text {
+  color:black;
+  font-family: 'Rage Italic';
+  font-size: 30px
+}
+
+body{
+  overflow-x:hidden;
+  
+}
+
+.gradient {
+  width: 732px;
+  height: 381px;
+  float: left;
+  margin-left: -86px;
+  margin-top: 15px;
+
+}
+
+.card1 {
+  width: 725px;
+  height: 375px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{width:6px;}
+::-webkit-scrollbar-thumb{background-color:#b96f00;}
+::-webkit-scrollbar-thumb:hover{background-color:#834e00;}
+
+
+.card2 {
+  width: 725px;
+  height: 375px;
+  overflow:scroll;
+  overflow-x:hidden;
+}
+
+.card3 {
+  width: 725px;
+  height: 375px;
+  overflow:scroll;
+  overflow-x:hidden;
+}
+
+.pd, .pm, .pt {
+  font-size: 15px;
+  text-align: center;
+}
+
+#button {
+  margin: 0;
+  padding-top: 250px;
+  width: 145px;
+  height: 382px;
+  margin-right: -90px;
+  margin-top: 15px;
+
+}
+
+.container123 {
+  width: 701px;
+  height: 100%;
 }
 
 svg {
@@ -1161,17 +1592,19 @@ body{
   text-align: center;
 }
 
-.container123 {
-  max-width: 767px;
+#button {
+  margin: 0;
+  padding-top: 250px;
+  width: 145px;
+  height: 382px;
+  margin-right: -34px;
+  margin-top: 15px;
+
 }
 
-#button {
-    margin: 0;
-    padding-top: 250px;
-    width: 100px;
-    height: 362px;
-    margin-right: -100px;
-    margin-bottom: 50px;
+.container123 {
+  width: 492px;
+  height: 100%;
 }
 
 svg {
@@ -1415,17 +1848,19 @@ body{
   text-align: center;
 }
 
-.container123 {
-  max-width: 767px;
+#button {
+  margin: 0;
+  padding-top: 250px;
+  width: 109px;
+  height: 361px;
+  margin-right: -109px;
+  margin-top: 0px;
+
 }
 
-#button {
-    margin: 0;
-    padding-top: 250px;
-    width: 100px;
-    height: 362px;
-    margin-right: -100px;
-    margin-bottom: 50px;
+.container123 {
+  width: 492px;
+  height: 100%;
 }
 
 svg {
@@ -1652,7 +2087,8 @@ body{
 }
 
 .container123 {
-  max-width: 767px;
+  width: 255px;
+  height: 100%;
 }
 
 .button {
@@ -1676,10 +2112,11 @@ svg {
   margin: 0;
   padding-top: 193px;
   width: 61px;
-  height: 249px;
+  height: 247px;
   margin-right: -61px;
   margin-bottom: 50px;
 }
+
 
 body::-webkit-scrollbar {
   width: 0.25rem;
@@ -1943,6 +2380,13 @@ svg {
   align-items: center;
   margin-right: -51px;
   margin-bottom: 50px;
+}
+
+.container123 {
+  height: 100%;
+  width: 105px;
+  align-items: center;
+  margin: 0 auto;
 }
 
 body::-webkit-scrollbar {
