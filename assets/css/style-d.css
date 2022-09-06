@@ -1,4 +1,8 @@
-
+:host, :root {
+  --fa-style-family-classic: "Font Awesome 6 Free";
+  --fa-font-solid: normal 900 1em/1"Font Awesome 6 Free";
+  overflow-x: hidden;
+}
 
 /* HEADER */    /* HEADER */    /* HEADER */    /* HEADER */    /* HEADER */    /* HEADER */
 /* HEADER */    /* HEADER */    /* HEADER */    /* HEADER */    /* HEADER */    /* HEADER */
@@ -176,7 +180,7 @@ text-shadow: 0 0 5px rgba(237, 233, 233, 0.557),0 -4px 30px rgba(255, 255, 255, 
 .navbar-subject a  {
   color: white;
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 23px;
   text-decoration: none;
   font-family: 'Rage Italic';
   padding-left: 0px;
@@ -2406,7 +2410,7 @@ body{
 
 #postures h1 {
   margin-left: 15px;
-  font-size: 40px;
+  font-size: 40px!important;
   text-align: center;
 }
 
@@ -2431,7 +2435,7 @@ body{
 
 #separation1 {
   margin: 0 auto;
-  height: 630px;
+  height: 607px;
   max-width: 480px;
 }
 
@@ -2443,7 +2447,7 @@ body{
 
 #separation3 {
   margin: 0 auto;
-  height: 743px;
+  height: 750px!important;
   max-width: 480px;
 }
 
@@ -2461,13 +2465,13 @@ body{
 
 #separation6 {
   margin: 0 auto;
-  height: 639px;
+  height: 592px!important;
   max-width: 480px;
 }
 
 #separation7 {
   margin: 0 auto;
-  height: 685px;
+  height: 662px!important;
   max-width: 480px;
 }
 
@@ -2479,7 +2483,7 @@ body{
 
 #separation9 {
   margin: 0 auto;
-  height: 532px;
+  height: 550px!important;
   max-width: 480px;
 }
 
@@ -2497,12 +2501,12 @@ body{
 
 #separation12 {
   margin: 0 auto;
-  height: 616px;
+  height: 615px!important;
   max-width: 480px;
 }
 #separation13 {
   margin: 0 auto;
-  height: 736px;
+  height: 715px!important;
   max-width: 480px;
 }
 
@@ -2628,8 +2632,8 @@ body{
 
 
 .video {
-  width: 454px;
-  height: 265px;
+  width: 100%!important;
+  height: 100%!important;
 }
 
 .outro {
@@ -2649,6 +2653,8 @@ body{
   font-size: 20px;
   margin-left: 0px;
   padding-left: 2px;
+  margin-right: -112px;
+
 }
 
 #footer {
@@ -2657,8 +2663,8 @@ body{
 }
 
 .logo {
-  left: 221px;
-  bottom: 94px;
+  left: 231px!important;
+  bottom: 100px;
 }
 
 .slogan {
@@ -2677,9 +2683,10 @@ body{
 }
 
 #slogan {
-  font-size: 16px;
-  text-align: center;
-  padding-left: 0px;
+  font-size: 18px!important;
+  line-height: 75%;
+  width: 227px!important;
+  margin-top: 10px;
 }
 }
 
@@ -2698,10 +2705,10 @@ body{
     display: inline-flex;
     text-align: center;
     padding-left: 4rem;
-    padding-bottom: 2px;
+    padding-bottom: 5px;
     text-shadow: 0 0 5px rgb(255 255 255 / 28%), 0 -4px 15px rgb(163 93 14 / 72%);
-    margin-left: -24px;
-    padding-top: 6px;
+    margin-left: 4px;
+    margin-top: 4px;
 }
 
   .navbar-subject {
@@ -2729,11 +2736,11 @@ body{
     border: solid 2px rgb(255, 187, 0);
     padding: 10px 15px 0px 0px;
     border-radius: 150px;
-    margin-left: 38px;
-    margin-right: 38px;
+    margin-left: 25px;
+    margin-right: 25px;
     background-size: cover;
     margin-top: -66px;
-    height: 210px;
+    height: 240px;
   }
   
   .navbar-light .navbar-toggler {
@@ -2791,6 +2798,10 @@ body{
   font-size: 18px;
   text-align: center;
   max-width: 480px;
+}
+
+.exc {
+  padding: 0px;
 }
 
 p {
@@ -2871,90 +2882,107 @@ body{
 #separation1 {
   margin: 0 auto;
   height: 630px;
-  max-width: 480px;
+  width: 100%;
+  margin-left: 2.2px;
+}
 }
 
 #separation2 {
   margin: 0 auto;
   height: 610px;
-  max-width: 480px;
+  width: 100%;
+  margin-left: 2.2px;
 }
 
 #separation3 {
   margin: 0 auto;
   height: 812px;
-  max-width: 480px;
+  width: 100%;
+  margin-left: 2.2px;
 }
 
 #separation4 {
   margin: 0 auto;
   height: 572px;
-  max-width: 480px;
+  width: 100%;
+  margin-left: 2.2px;
 }
 
 #separation5 {
   margin: 0 auto;
   height: 617px;
-  max-width: 480px;
+  width: 100%;
+  margin-left: 2.2px;
 }
 
 #separation6 {
   margin: 0 auto;
   height: 639px;
-  max-width: 480px;
+  width: 100%;
+  margin-left: 2.2px;
 }
 
 #separation7 {
   margin: 0 auto;
   height: 685px;
-  max-width: 480px;
+  width: 100%;
+  margin-left: 2.2px;
 }
 
 #separation8 {
   margin: 0 auto;
   height: 594px;
   max-width: 480px;
+  margin-left: 2.2px;
 }
 
 #separation9 {
   margin: 0 auto;
   height: 532px;
-  max-width: 480px;
+  width: 100%;
+  margin-left: 2.2px;
 }
 
 #separation10 {
   margin: 0 auto;
   height: 556px;
-  max-width: 480px;
+  width: 100%;
+  margin-left: 2.2px;
 }
 
 #separation11 {
   margin: 0 auto;
   height: 578px;
-  max-width: 480px;
+  width: 100%;
+  margin-left: 2.2px;
 }
 
 #separation12 {
   margin: 0 auto;
-  height: 616px;
-  max-width: 480px;
+  height: 592px;
+  width: 100%;
+  margin-left: 2.2px;
 }
+
 #separation13 {
   margin: 0 auto;
   height: 736px;
-  max-width: 480px;
+  width: 100%;
+  margin-left: 2.2px;
 }
 
 #separation14 {
   margin: 0 auto;
-  height: 1480px;
-  max-width: 480px;
+  height: 1242px;
+  width: 100%;
+  margin-left: 2.2px;
 }
 
 #separation15 {
   margin: 0 auto;
-  height: 898px;
-  max-width: 480px;
+  height: 817px;
+  width: 100%;
+  margin-left: 2.2px;
 }
 
 .card1 {
@@ -2994,7 +3022,6 @@ body{
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  margin-left: 5px;
   float: left;
 }
 
@@ -3048,16 +3075,21 @@ body{
   height: 100%;
 }
 .card14 {
-  width: 300px;
-  height: 200px;
+  width: 98%;
   margin: 0 auto;
-  margin-left: 7px;
+  margin-left: 5px;
+  border: solid 2px rgb(255, 187, 0);
+  
 }
 .card15 {
-  width: 300px;
-  height: 200px;
+  width: 98%;
   margin: 0 auto;
-  margin-left: 7px;
+  margin-left: 5px;
+  border: solid 2px rgb(255, 187, 0);
+}
+
+.exc {
+  padding-left: 0px;
 }
 
 .vid-d {
